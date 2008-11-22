@@ -1,7 +1,3 @@
-;;Waseem Ilahi
-;;CIS 24
-;;Challenge Assignment.
-
 ;;QuickSort Algorithm for list of numbers. (ascending order)
 
 ;;First we choose the pivot point.

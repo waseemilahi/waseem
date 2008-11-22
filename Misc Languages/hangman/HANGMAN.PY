@@ -1,4 +1,3 @@
-# Hangman By Waseem Ilahi.
 import string
 from random import randint
 from time import time

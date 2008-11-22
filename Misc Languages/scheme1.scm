@@ -1,7 +1,3 @@
-;;Waseem Ilahi
-;;CIS 24
-;;HomeWork # 1
-
 ;;Reversing the list of symbols.
 
 ;;i) The main subroutine.
