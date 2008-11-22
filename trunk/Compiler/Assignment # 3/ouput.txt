@@ -1,0 +1,346 @@
+
+FOLLOWING ARE SOME SAMPLE INPUTS AND THE RESULTS.
+--------------------------------------------------------------------------
+
+
+ Hello! This is a LL(1) parser (implemented in C), by Waseem Ilahi.
+ Please input an assignment statement to check wheather it is valid or not.
+ --------------------------------------------------------------------------
+
+ program09pa=a09+w08*ad111+1;$
+
+ ip points to 'p'
+
+ Top of stack is now 'Identifier'
+
+ Top of stack is now 'Letter'
+
+ Top of stack is now 'p'
+
+ Pop: 'p'
+
+ --------------------------
+
+
+ ip points to 'r'
+
+ Top of stack is now '[Letter|Digit]*'
+
+ Top of stack is now '='
+
+ Pop: '='
+
+ --------------------------
+
+
+ ip points to 'a'
+
+ Top of stack is now 'Exp'
+
+ Top of stack is now 'Term'
+
+ Top os stack is now 'Fact'
+
+ Top of stack is now 'Identifier'
+
+ Top of stack is now 'Letter'
+
+ Top of stack is now 'a'
+
+ Pop: 'a'
+
+ --------------------------
+
+
+ ip points to '0'
+
+ Top of stack is now '[Letter|Digit]*'
+
+ Top of stack is now 'Term_'
+
+ Top of stack is now 'empty'
+
+ Top of stack is now 'Exp_'
+
+ Top of stack is now '+'
+
+ Pop: '+'
+
+ --------------------------
+
+
+ ip points to 'w'
+
+ Top of stack is now 'Term'
+
+ Top os stack is now 'Fact'
+
+ Top of stack is now 'Identifier'
+
+ Top of stack is now 'Letter'
+
+ Top of stack is now 'w'
+
+ Pop: 'w'
+
+ --------------------------
+
+
+ ip points to '0'
+
+ Top of stack is now '[Letter|Digit]*'
+
+ Top of stack is now 'Term_'
+
+ Top of stack is now '*'
+
+ Pop: '*'
+
+ --------------------------
+
+
+ ip points to 'a'
+
+ Top of stack is now 'Fact'
+
+ Top of stack is now 'Identifier'
+
+ Top of stack is now 'Letter'
+
+ Top of stack is now 'a'
+
+ Pop: 'a'
+
+ --------------------------
+
+
+ ip points to 'd'
+
+ Top of stack is now '[Letter|Digit]*'
+
+ Top of stack is now 'Term_'
+
+ Top of stack is now 'empty'
+
+ Top of stack is now 'Exp_'
+
+ Top of stack is now '+'
+
+ Pop: '+'
+
+ --------------------------
+
+
+ ip points to '1'
+
+ Top of stack is now 'Term'
+
+ Top os stack is now 'Fact'
+
+ Top of stack is now 'Litteral'
+
+ Top of stack is now 'NonZeroDigit'
+
+ Top of stack is now any one of '1-9'
+
+ Top of stack is now '1'
+
+ Pop: '1'
+
+ --------------------------
+
+
+ ip points to ';'
+
+ Top of stack is now 'Digit*'
+
+ Top of stack is now 'Term_'
+
+ Top of stack is now 'empty'
+
+ Top of stack is now 'Exp_'
+
+ Top of stack is now 'empty'
+
+ Top of stack is now ';'
+
+ Pop: ';'
+
+ --------------------------
+
+
+ ip points to '$'
+
+ Top of stack is now '$'
+
+ Valid Input.
+ ---------------------------------------------------------------
+Press any key to continue . . .
+
+*********************************************************************
+
+ Hello! This is a LL(1) parser (implemented in C), by Waseem Ilahi.
+ Please input an assignment statement to check wheather it is valid or not.
+ --------------------------------------------------------------------------
+
+ a=1*5;$
+
+ ip points to 'a'
+
+ Top of stack is now 'Identifier'
+
+ Top of stack is now 'Letter'
+
+ Top of stack is now 'a'
+
+ Pop: 'a'
+
+ --------------------------
+
+
+ ip points to '='
+
+ Top of stack is now '[Letter|Digit]*'
+
+ Top of stack is now '='
+
+ Pop: '='
+
+ --------------------------
+
+
+ ip points to '1'
+
+ Top of stack is now 'Exp'
+
+ Top of stack is now 'Term'
+
+ Top os stack is now 'Fact'
+
+ Top of stack is now 'Litteral'
+
+ Top of stack is now 'NonZeroDigit'
+
+ Top of stack is now any one of '1-9'
+
+ Top of stack is now '1'
+
+ Pop: '1'
+
+ --------------------------
+
+
+ ip points to '*'
+
+ Top of stack is now 'Digit*'
+
+ Top of stack is now 'Term_'
+
+ Top of stack is now '*'
+
+ Pop: '*'
+
+ --------------------------
+
+
+ ip points to '5'
+
+ Top of stack is now 'Fact'
+
+ Top of stack is now 'Litteral'
+
+ Top of stack is now 'NonZeroDigit'
+
+ Top of stack is now any one of '1-9'
+
+ Top of stack is now '5'
+
+ Pop: '5'
+
+ --------------------------
+
+
+ ip points to ';'
+
+ Top of stack is now 'Digit*'
+
+ Top of stack is now 'Term_'
+
+ Top of stack is now 'empty'
+
+ Top of stack is now 'Exp_'
+
+ Top of stack is now 'empty'
+
+ Top of stack is now ';'
+
+ Pop: ';'
+
+ --------------------------
+
+
+ ip points to '$'
+
+ Top of stack is now '$'
+
+ Valid Input.
+
+ ----------------------------------------------------------------
+Press any key to continue . . .
+
+************************************************************
+
+ Hello! This is a LL(1) parser (implemented in C), by Waseem Ilahi.
+ Please input an assignment statement to check wheather it is valid or not.
+ --------------------------------------------------------------------------
+
+ 0a=0w;$
+Invalid Input(from lexer).
+
+ ----------------------------------------------------------------
+Press any key to continue . . .
+
+**********************************************************
+
+ Hello! This is a LL(1) parser (implemented in C), by Waseem Ilahi.
+ Please input an assignment statement to check wheather it is valid or not.
+ --------------------------------------------------------------------------
+
+ a=;$
+
+ ip points to 'a'
+
+ Top of stack is now 'Identifier'
+
+ Top of stack is now 'Letter'
+
+ Top of stack is now 'a'
+
+ Pop: 'a'
+
+ --------------------------
+
+
+ ip points to '='
+
+ Top of stack is now '[Letter|Digit]*'
+
+ Top of stack is now '='
+
+ Pop: '='
+
+ --------------------------
+
+
+ ip points to ';'
+
+ Top of stack is now 'Exp'
+
+ Invalid Input.
+
+ ----------------------------------------------------------------
+Press any key to continue . . .
+ 			
+
+                                                      THE END
+                                                      --------------

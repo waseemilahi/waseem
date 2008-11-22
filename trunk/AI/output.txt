@@ -1,0 +1,82 @@
+
+ Program # 2 By Waseem Ilahi.
+ ----------------------------
+
+ The input is taken from a file named map1.txt saved in the same directory.
+ --------------------------------------------------------------------------
+
+ The original map is as follows:
+ -------------------------------
+
+ ##############################
+ #s          #                #
+ #           #     #          #
+ # ###       # ######         #
+ # # #       #     #          #
+ # ###       #                #
+ #          t# #     #        #
+ #             #     #        #
+ #         #   #     #        #
+ #         #   #     #        #
+ #         #   #     #        #
+ #         ########  #        #
+ #                ###         #
+ #                            #
+ ##############################
+ First We do the Graph Search.
+ -----------------------------
+ 
+ Time  Complexity For Graph Search is: 127 Nodes
+
+ Space Complexity For Graph Search is: 191 Nodes
+
+ 
+ The solution for Graph search is as follows:
+ --------------------------------------------
+
+ ##############################
+ #soooooooooo#                #
+ #          o#     #          #
+ # ###      o# ######         #
+ # # #      o#     #          #
+ # ###      o#                #
+ #          t# #     #        #
+ #             #     #        #
+ #         #   #     #        #
+ #         #   #     #        #
+ #         #   #     #        #
+ #         ########  #        #
+ #                ###         #
+ #                            #
+ ##############################
+
+ Now We do the Tree Search.
+ --------------------------
+ 
+ Time  Complexity For Tree Search is: 127 Nodes
+
+ Space Complexity For Tree Search is: 342 Nodes
+
+ 
+ The solution for Tree search is as follows:
+ -------------------------------------------
+
+ ##############################
+ #soooooooooo#                #
+ #          o#     #          #
+ # ###      o# ######         #
+ # # #      o#     #          #
+ # ###      o#                #
+ #          t# #     #        #
+ #             #     #        #
+ #         #   #     #        #
+ #         #   #     #        #
+ #         #   #     #        #
+ #         ########  #        #
+ #                ###         #
+ #                            #
+ ##############################
+
+ Thank You.
+
+ Press any key to continue . . . 
