@@ -1,0 +1,53 @@
+                  
+	                            FIRST AND FOLLOW SETS
+		          *************************
+
+ First(Assignment)={a,b,c,......................,z,A,B,C,.........................,Z,_}
+
+First(Identifier)=First(Assignment)
+
+First(Exp)={ - , + , ( ,0,1,.............,9,a,b,..................,z,A,B,....................,Z,_}
+
+First(Term)=First(Exp)
+
+First(Exp' )={ +, - , e}
+
+First(Term' )={ * , e}
+
+First(Fact)= {  ( , - , + , 0,1,..........,9,a,b,...............,z,A,B,.........,Z,_}
+
+First(Letter)=First(Assignment)
+
+First(Digit)={0,1,2,3,4,5,6,7,8,9}
+
+First(Litteral)=First(Digit)
+
+First(NonZeroDigit)={1,2,3,4,5,6,7,8,9}
+
+-------------------------------------------------------------------------------------------------------------
+
+Follow(Assignment)={ $ }
+
+Follow(Identifier)={ }
+
+Follow(Exp)={ ) , $ }
+
+Follow(Term)={ + , - , ) , $ }
+
+Follow(Exp' )={ }
+
+Follow(Term' )={ + , - , ) , $ }
+
+Follow(Fact)={ * }
+
+Follow(Letter)={ }
+
+Follow(Digit)= { }
+
+Follow(Litteral)={ }
+
+Follow(NonZeroDigit)= { }
+
+***********************************************************************
+
+

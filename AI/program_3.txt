@@ -1,0 +1,48 @@
+ 
+ Program # 3 by Waseem Ilahi.
+ ----------------------------
+
+ Format of output is  Number : Color Number [X-coordinate Y-coordinate].
+ -----------------------------------------------------------------------
+
+ Please Enter the values for n,k,d respectively: 2,2,2
+
+ Following is the solution using Back Tracking.
+ ----------------------------------------------
+
+ The Segments:
+
+ [0 0] , [1 1]
+
+ [1 1] , [0 0]
+
+ ----------------------------------------
+
+ The coloring:
+
+ 1 : 0 , [0 0]
+
+ 2 : 1 , [1 1]
+
+ ----------------------------------------------------------------
+
+ Following is the solution using Min-Conflicts.
+ ----------------------------------------------
+
+ The Segments:
+
+ [0 0] , [1 1]
+
+ [1 1] , [0 0]
+
+ ----------------------------------------
+
+ The coloring:
+
+ 1 : 0 , [1 1]
+
+ 2 : 1 , [0 0]
+
+ Thank You.
+
+ Press any key to continue......

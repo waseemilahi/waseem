@@ -1,0 +1,27 @@
+
+Right Arrow and Left Arrow :  Yaw
+
+Down Arrow and Up Arrow :   Pitch
+
+W and Q Keys :      Roll
+
+S                 for  :    Smooth Shading
+
+Z                 for  :    Flat Shading
+
++ and -    to increment and decrement the "spin speed"      (minimum speed =0)
+
+A         to animate or stop the animation.
+
+F   and   B            for Forward and Backward
+
+D  and   U             for Down and Up
+
+L and      R            to slide camera left and right
+
+
+Escape for exiting
+
+
+
+(either lower or upper case can be used for above controls) 
