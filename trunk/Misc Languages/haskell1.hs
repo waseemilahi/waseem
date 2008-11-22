@@ -1,4 +1,4 @@
---Program in Haskell By Waseem Ilahi
+
 --Given the three constants of a quadratic equation, it returns the pair of roots.
 
 myquad a b c  |  determin < 0    = error "Roots are complex"

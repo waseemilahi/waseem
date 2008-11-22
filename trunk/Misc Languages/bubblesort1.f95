@@ -1,4 +1,4 @@
-/* Bubble Sort In Fortran By Waseem Ilahi
+
 /* This program takes an array of 15 integers and sorts 
 /* it using bubble sort and prints out the sorted array.
 
