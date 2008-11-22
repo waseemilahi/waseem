@@ -1,0 +1,17 @@
+         /*The OS file (All the definitions are in the separate files)*/
+
+# include "declarations.h"
+# include "startup.cpp"
+# include "Crint.cpp"
+# include "Diskint.cpp"
+# include "Drmint.cpp"
+# include "Tro.cpp"
+# include "Svc.cpp"
+# include "sortqueue.cpp"
+# include "swapin.cpp"
+# include "swapout.cpp"
+# include "scheduler.cpp"
+# include "drum.cpp"
+# include "disk.cpp"
+# include "removenotready.cpp"
+# include "dispatcher.cpp"
